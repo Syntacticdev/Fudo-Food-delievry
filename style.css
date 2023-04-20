@@ -582,10 +582,15 @@ footer nav li a:hover {
   }
 
   footer {
-    /* width: 100%; */
+    width: 100%;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     gap: 2em;
+  }
+
+  footer nav,
+  footer div {
+    width: 100%;
   }
 
   .footer_details {
