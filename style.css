@@ -570,6 +570,7 @@ footer nav li a:hover {
   }
 
   .download {
+    width: 100%;
     grid-template-columns: 40% 60%;
     align-items: center;
   }
@@ -581,6 +582,7 @@ footer nav li a:hover {
   }
 
   footer {
+    /* width: 100%; */
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     gap: 2em;
